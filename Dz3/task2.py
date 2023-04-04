@@ -16,9 +16,10 @@ for i in range(n):
 print(a)
 x = int(input())
 find = 0
-dif = 1000000
+min_dif = 1000000
 for el in a:
-    if abs(el - x) < dif:
-        dif = el - x
+    dif = abs(el - x) 
+    if dif < min_dif:
+        min_dif = dif
         find = el
 print(find)
