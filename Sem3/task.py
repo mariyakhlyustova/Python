@@ -29,29 +29,22 @@
 # " V ":" S009 " 
 # " VIII ":" S007 "
 
-dict = {'V' : "S001", 'V' : "S002", 'VI' : "S001", 'VI' : "S005", 'VI' : "S005", 'VII' :"  S005 ", " V ":" S009 ", " VIII ":" S007 "}
-list = []
-for el in dict:
-    list.append(dict[el])
-print(set(list))
+# dict = {'V' : "S001", 'V' : "S002", 'VI' : "S001", 'VI' : "S005", 'VI' : "S005", 'VII' :"  S005 ", " V ":" S009 ", " VIII ":" S007 "}
+# list = []
+# for el in dict:
+#     list.append(dict[el])
+# print(set(list))
 
 # Дан массив, состоящий из целых чисел. 
 # Напишите программу, которая подсчитает количество элементов массива, больших предыдущего (элемента с предыдущим номером)
 # 4 3 2 6 5 9 0
 # 1 + 1 = 2
 
-list = [1, 2, 3, 4, 5, 6]
-count = 0
-temp = list[0]
-for el in list:
-    if el > temp:
-        count += 1
-    temp = el
-print(count)
-
-
-
-
-
-
-
+# list = [1, 2, 3, 4, 5, 6]
+# count = 0
+# temp = list[0]
+# for el in list:
+#     if el > temp:
+#         count += 1
+#     temp = el
+# print(count)
