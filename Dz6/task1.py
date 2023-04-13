@@ -6,5 +6,10 @@
 # Ввод: 7 2 5
 # Вывод: 7 9 11 13 15
 
-
-
+a = int(input())
+d = int(input())
+n = int(input())
+list_1 = []
+for i in range(n):
+    list_1.append(a + i * d)
+print(list_1)

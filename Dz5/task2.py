@@ -6,10 +6,10 @@
 # 2 2
 # 4 
 
-def sum(n, m):
+def sum(n, m):          
     if m == 0:
         return n
-    return sum(n, m-1) + 1
+    return sum(n, m-1) + 1 
 
 a = int(input())
 b = int(input())

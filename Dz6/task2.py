@@ -6,3 +6,12 @@
 # 5
 # 15
 # Вывод: [1, 9, 13, 14, 19]
+
+list_1 = [7, -5, 6, 2, 6, -8, -25, 0, 13, -9, 2, 14, 1, -1, 11, -6, 7, -2, 13]
+minima = int(input())
+maxima = int(input())
+result = []
+for i in range(len(list_1)):
+    if minima <= list_1[i] <= maxima:
+        result.append(i)
+print(result)
